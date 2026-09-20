@@ -18,8 +18,8 @@ __pycache__/
 .ruff_cache/
 
 # Local model artifacts and secrets
-models/
-checkpoints/
+/models/
+/checkpoints/
 *.safetensors
 *.bin
 *.pt
