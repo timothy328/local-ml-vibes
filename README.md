@@ -22,6 +22,8 @@ local-ml-vibes/
 │       └── settings.py
 ├── tests/
 │   └── test_model_config.py
+├── notebooks/
+│   └── huggingface_local_model_loading.ipynb
 ├── examples/
 ├── scripts/
 ├── pyproject.toml
@@ -54,6 +56,10 @@ uv sync --extra models
 The loader supports explicit offline mode, local cache directories, device
 selection, and dtype configuration. Keep credentials and private model
 identifiers out of source control.
+
+The [Hugging Face loading notebook](/Users/timothychin/PycharmProjects/local-ml-vibes/notebooks/huggingface_local_model_loading.ipynb)
+walks through this configuration and includes a commented-out loading cell.
+It is safe to open without downloading or initializing any model.
 
 ## Development
 
